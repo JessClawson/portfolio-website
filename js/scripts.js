@@ -13,3 +13,9 @@ function menuToggle() {
         menu.style.display = "block";
     }
 }
+
+$(document).ready(function() {
+    // Your jQuery code here
+    // This code will run when the DOM is fully loaded
+    document.getElementById('mobile-sidebar-container').style.display = "none";
+});
